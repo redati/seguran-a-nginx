@@ -75,20 +75,16 @@ map $http_user_agent $bad_client {
   "~*^Intelliseek" 1;
   "~*^InterGET" 1;
   "~*^Internet\ Ninja" 1;
-  "~*^Iria" 1;
   "~*^Jakarta" 1;
   "~*^JennyBot" 1;
   "~*^JetCar" 1;
-  "~*^JOC" 1;
   "~*^JustView" 1;
   "~*^Jyxobot" 1;
   "~*^Kenjin.Spider" 1;
   "~*^Keyword.Density" 1;
   "~*^larbin" 1;
   "~*^LexiBot" 1;
-  "~*^lftp" 1;
   "~*^libWeb/clsHTTP" 1;
-  "~*^likse" 1;
   "~*^LinkextractorPro" 1;
   "~*^LinkScan/8.1a.Unix" 1;
   "~*^LNSpiderguy" 1;
@@ -100,7 +96,6 @@ map $http_user_agent $bad_client {
   "~*^MarkWatch" 1;
   "~*^Mass\ Downloader" 1;
   "~*^Mata.Hari" 1;
-  "~*^Memo" 1;
   "~*^Microsoft.URL" 1;
   "~*^Microsoft\ URL\ Control" 1;
   "~*^MIDown\ tool" 1;
@@ -110,7 +105,6 @@ map $http_user_agent $bad_client {
   "~*^Mister\ PiX" 1;
   "~*^moget" 1;
   "~*^Mozilla/3.Mozilla/2.01" 1;
-  "~*^Mozilla.*NEWT" 1;
   "~*^NAMEPROTECT" 1;
   "~*^Navroad" 1;
   "~*^NearSite" 1;
@@ -121,7 +115,6 @@ map $http_user_agent $bad_client {
   "~*^Net\ Vampire" 1;
   "~*^NetZIP" 1;
   "~*^NextGenSearchBot" 1;
-  "~*^NG" 1;
   "~*^NICErsPRO" 1;
   "~*^niki-bot" 1;
   "~*^NimbleCrawler" 1;
@@ -135,7 +128,6 @@ map $http_user_agent $bad_client {
   "~*^PageGrabber" 1;
   "~*^Papa\ Foto" 1;
   "~*^pavuk" 1;
-  "~*^pcBrowser" 1;
   "~*^PHP\ version\ tracker" 1;
   "~*^Pockey" 1;
   "~*^ProPowerBot/2.14" 1;
@@ -148,7 +140,6 @@ map $http_user_agent $bad_client {
   "~*Recorder" 1;
   "~*^ReGet" 1;
   "~*^RepoMonkey" 1;
-  "~*^RMA" 1;
   "~*Siphon" 1;
   "~*^SiteSnagger" 1;
   "~*^SlySearch" 1;
@@ -181,7 +172,6 @@ map $http_user_agent $bad_client {
   "~*^TurnitinBot" 1;
   "~*^URLy.Warning" 1;
   "~*^Vacuum" 1;
-  "~*^VCI" 1;
   "~*^VoidEYE" 1;
   "~*^Web\ Image\ Collector" 1;
   "~*^Web\ Sucker" 1;
@@ -217,7 +207,7 @@ map $http_user_agent $bad_client {
   "~*Acunetix" 1;
   "~*FHscan" 1;
   "~*Baiduspider" 1;
-  "~*Yandex" 1;
+  "~*Nutch-" 1;
   "~*IDBot" 1;
   "~*id-search" 1;
   "~*mj12bot.com" 1;
@@ -249,10 +239,8 @@ map $http_user_agent $bad_client {
   "~*ContactBot" 1;
   "~*ContentSmartz" 1;
   "~*DataCha0s" 1;
-  "~*DBrowse" 1;
   "~*Demo Bot" 1;
   "~*DSurf15a" 1;
-  "~*EBrowse" 1;
   "~*Educate Search" 1;
   "~*EmailWolf" 1;
   "~*ESurf15a" 1;
@@ -277,7 +265,6 @@ map $http_user_agent $bad_client {
   "~*MVAClient" 1;
   "~*NameOfAgent" 1;
   "~*NASA Search" 1;
-  "~*PBrowse 1" 1;
   "~*PEval 1" 1;
   "~*Production Bot" 1;
   "~*Program Shareware" 1;
@@ -323,7 +310,6 @@ map $http_user_agent $bad_client {
   "~*MegaIndex" 1;
   "~*meanpathbot" 1;
   "~*Microsoft-IIS" 1;
-  "~*Mozilla.*Indy" 1;
   "~*MSFrontPage" 1;
   "~*FastProbe" 1;
   "~*Nutch" 1;
@@ -353,7 +339,27 @@ map $http_user_agent $bad_client {
   "~*Visbot" 1;
   "~*webalta" 1;
   "~*ZyBorg" 1;
-  "~*BDCbot" 1;
-  "~*domaincrawler" 1;
+  "~*VB Project" 1;
+  "~*masscan" 1;
+  "~*muhstik" 1;
+  "~*zgrab" 1;
+  "~*checker" 1;
+  "~*Netcraft" 1;
+  "~*pdrlabs" 1;
+  "~*DotBot" 1;
+  "~*yandex" 1; #ninguem usa esse buscador no brasil sr
+  "~*Python-urllib" 1;
+  "~*netEstate" 1;
+  "~*GrapeshotCrawler" 1;
+  "~*mappydata" 1;
+  "~*Cliqzbot" 1;
+  "~*spbot" 1;
+  "~*Dataprovider" 1;
+  "~*getroot" 1;
+  "~*evc-batch" 1;
+  "~*DomainSigmaCrawler" 1;
+  
 }
+
+
 
