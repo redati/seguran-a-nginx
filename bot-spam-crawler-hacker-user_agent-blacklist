@@ -358,6 +358,18 @@ map $http_user_agent $bad_client {
   "~*getroot" 1;
   "~*evc-batch" 1;
   "~*DomainSigmaCrawler" 1;
+  "~*HttpClient" 1;
+  "~*Auto Spider" 1;
+  "~*Go-http-client" 1;  
+  "~*BDCbot" 1; 
+  "~*node-fetch" 1; 
+  "~*Wotbox" 1;
+  "~*DomainCrawler" 1;
+  "~*Barkrowler" 1;
+  "~*WebCrawler" 1;
+  "~*SafeDNSBot" 1;
+  
+  
   
 }
 
