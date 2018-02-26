@@ -368,8 +368,7 @@ map $http_user_agent $bad_client {
   "~*Barkrowler" 1;
   "~*WebCrawler" 1;
   "~*SafeDNSBot" 1;
-  
-  
+  "~*\/bin\/bash" 1;
   
 }
 
