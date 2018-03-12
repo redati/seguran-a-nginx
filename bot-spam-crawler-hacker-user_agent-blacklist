@@ -369,8 +369,19 @@ map $http_user_agent $bad_client {
   "~*WebCrawler" 1;
   "~*SafeDNSBot" 1;
   "~*\/bin\/bash" 1;
+  "~*sysscan" 1;
+  "~*Uptimebot" 1;
+  "~*AwarioRssBot" 1;
+  "~*MSDN SurfBear" 1;
+  "~*ExtLinksBot" 1;
+  "~*filterdb" 1;
+  "~*uCrawler" 1;
+  "~*libwww-FM" 1;
+  "~*Streamline3Bot" 1;
+  "~*Exabot" 1;
+  "~*crawler4j" 1;
+  "~*DomainStatsBot" 1;
+  "~*Yeti" 1;
+  "~*BacklinkCrawler" 1;
   
 }
-
-
-
